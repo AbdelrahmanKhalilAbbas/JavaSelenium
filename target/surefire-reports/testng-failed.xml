@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="24" parallel="methods" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="24" parallel="methods" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.spacejat.dashboard.testcases.LoginTest">
+        <methods>
+          <include name="ShouldBeAbleToIconCloseCreateIdentity"/>
+          <include name="ShouldBeAbleToExitTermsAndConditions"/>
+          <include name="TearDown"/>
+          <include name="ShouldBeAbleExitInvalidToLoginWithLinkIdentity"/>
+          <include name="ShouldBeAbleCancelToSelectYourIdentity"/>
+          <include name="ShouldBeAbleExitToLoginWithInvitationLink"/>
+          <include name="ShouldBeAbleCancelToLoginWithLinkIdentity"/>
+          <include name="ShouldBeAbleExitToJoinMeetingAsAGuest"/>
+          <include name="ShouldBeAbleToCancelCreateIdentity"/>
+          <include name="ShouldBeAbleToLoginWithInvitationLink"/>
+          <include name="ShouldBeAbleToLoginWithLinkIdentity"/>
+          <include name="SetUp"/>
+          <include name="ShouldBeAbleExitInvalidToLoginWithInvitationLink"/>
+          <include name="ShouldBeAbleExitToLoginWithLinkIdentity"/>
+          <include name="ShouldBeAbleExitToSelectYourIdentity"/>
+          <include name="ShouldBeAbleCancelAfterCreateIdentityToLoginWithInvitationLink"/>
+          <include name="ShouldBeAbleCancelToLoginWithInvitationLink"/>
+          <include name="ShouldBeAbleToJoinMeetingAsAGuest"/>
+          <include name="ShouldBeAbleInvalidToLoginWithLinkIdentity"/>
+          <include name="ShouldBeAbleInvalidToLoginWithInvitationLink"/>
+          <include name="ShouldBeAbleCancelToJoinMeetingAsAGuest"/>
+        </methods>
+      </class> <!-- com.spacejat.dashboard.testcases.LoginTest -->
+      <class name="com.spacejat.dashboard.testcases.CreateMeetingTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="ShouldBeAbleCreateTheMeetingPrivate"/>
+          <include name="ShouldBeAbleCreateTheMeetingPublic"/>
+        </methods>
+      </class> <!-- com.spacejat.dashboard.testcases.CreateMeetingTest -->
+      <class name="com.spacejat.dashboard.testcases.ChatOne2OneTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="ShouldBeAbleToOpenChatOne2One"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.spacejat.dashboard.testcases.ChatOne2OneTest -->
+      <class name="com.spacejat.dashboard.testcases.CreateChannelTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="ShouldBeAbleCreateTheChannelLocked"/>
+          <include name="ShouldBeAbleCreateTheChannelPublic"/>
+        </methods>
+      </class> <!-- com.spacejat.dashboard.testcases.CreateChannelTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
